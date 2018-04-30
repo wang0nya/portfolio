@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+    <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115076670-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-115076670-1');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Siri Designs</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+<!--nav-->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item"> <a data-scroll class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a> </li>
+          <li class="nav-item"> <a data-scroll class="nav-link" href="#services">Services</a> </li>
+          <li class="nav-item"> <a data-scroll class="nav-link" href="#portfolio">Portfolio</a> </li>
+          <!--<li class="nav-item"> <a data-scroll class="nav-link" href="#blog">Blog</a> </li>-->
+          <li class="nav-item"> <a data-scroll class="nav-link" href="#contact">Contact</a> </li>
+        </ul>
+  </div>
+    </nav>
+<!--Home-->
+<section id="home">
+      <div class="container-fluid">
+    <div class="row">
+          <div class="col-md-12 brand text-center">
+        <h1 class="brand-text">Siri Designs</h1>
+        <div class="social"> <a href="https://twitter.com/kwang0nya" target="_blank"><i class="fab fa-twitter fa-2x fa-fw"></i></a> <a href="https://www.facebook.com/kinyanjui.wangonya.1" target="_blank"><i class="fab fa-facebook fa-2x fa-fw"></i></a> <a href="https://www.instagram.com/kwangonya/" target="_blank"><i class="fab fa-instagram fa-2x fa-fw"></i></a> <a href="www.linkedin.com/in/kinyanjui-wangonya-711a68122" target="_blank"><i class="fab fa-linkedin fa-2x fa-fw"></i> </a> <a href="https://github.com/wang0nya" target="_blank"><i class="fab fa-github fa-2x fa-fw"></i></a> </div>
+      </div>
+        </div>
+  </div>
+    </section>
+<!--Services-->
+<section id="services">
+      <div class="container">
+    <div class="row">
+          <div class="col-md-12 service-heading text-center text-secondary">
+        <h2>Services</h2>
+        <hr width="10%">
+      </div>
+        </div>
+    <div class="row text-center text-secondary">
+          <div class="col-md-4 web"> <i class="fas fa-laptop fa-4x"></i>
+        <div class="service-text">
+              <h5>Web Development</h5>
+              <hr width="10%">
+              <p>In this day and age, online is where people will find you... and first impressions matter.</p>
+            </div>
+      </div>
+          <div class="col-md-4 mobile"> <i class="fas fa-mobile fa-4x"></i>
+        <div class="service-text">
+              <h5>Mobile Apps</h5>
+              <hr width="10%">
+              <p>An effective mobile strategy involves more than just a mobile-friendly website.</p>
+            </div>
+      </div>
+          <div class="col-md-4 photo"> <i class="fas fa-camera-retro fa-4x"></i>
+        <div class="service-text">
+              <h5>Photography</h5>
+              <hr width="10%">
+              <p>To stand out as credible and professional, top notch visual content is a must.</p>
+            </div>
+      </div>
+        </div>
+  </div>
+    </section>
+<!--Portfolio-->
+<section id="portfolio">
+      <div class="container">
+    <div class="row">
+          <div class="col-md-12 service-heading text-center text-light">
+        <h2>Portfolio</h2>
+        <hr width="10%">
+      </div>
+        </div>
+    <div class="row text-center">
+          <div class="col-md-4">
+        <div class="portfolio-image"> <a href="http://speaklife.co.ke/" target="_blank"><img src="img/SL-mockup.png" alt="speaklife portfolio image" class="img-fluid"> <i class="fab fa-wordpress fa-2x fa-fw"></i></a></div>
+      </div>
+        </div>
+  </div>
+    </section>
+<!--Contact-->
+<section id="contact">
+      <div class="container">
+    <div class="row">
+          <div class="col-md-12 service-heading text-center text-secondary">
+        <h2>Contact</h2>
+        <h6>Have an idea for your next project?</h6>
+        <hr width="10%">
+      </div>
+        </div>
+    <div class="row text-center text-secondary">
+          <div class="col-md-12 content-right contact-form">
+        <form id="ajax-contact" method="post" action="mailer.php">
+              <div class="group">
+            <input required="" type="text" id="name" name="name">
+            <span class="highlight"></span><span class="bar"></span>
+            <label>Name</label>
+          </div>
+              <div class="group">
+            <input required="" type="email" id="email" name="email">
+            <span class="highlight"></span><span class="bar"></span>
+            <label>Email</label>
+          </div>
+              <div class="group">
+            <textarea required id="message" name="message"></textarea>
+            <span class="highlight"></span><span class="bar"></span>
+            <label>Message</label>
+          </div>
+              <input id="sendMessage" name="sendMessage" type="submit" value="Send Message">
+            </form>
+        <div id="form-messages"></div>
+      </div>
+        </div>
+  </div>
+    </section>
+<!--Footer-->
+<section id="footer">
+      <div class="container">
+    <div class="row">
+          <div class="col-md-12 text-secondary text-center">
+        <footer> <span class="copyleft">&copy;</span><span>2018 Copyleft Siri Designs<span>&middot;</span>All wrongs reserved<span>&middot;</span><span>Made with &#x2764;</span></span> <img src="img/under.png" alt="footer image" class="img-fluid"> </footer>
+      </div>
+        </div>
+  </div>
+    </section>
+<!--js--> 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script> 
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script> 
+<script src="js/smooth-scroll.min.js"></script> 
+<script src="js/smoothscroll.js"></script> 
+<script src="js/main.js"></script>
+</body>
+</html>
