@@ -3,6 +3,25 @@ body, html {
 	font-family: 'Roboto', sans-serif;
 	height: 100%;
 }
+/*loader*/
+.no-js #loader {
+	display: none;
+}
+.js #loader {
+	display: block;
+	position: absolute;
+	left: 100px;
+	top: 0;
+}
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../img/Preloader_4.gif) center no-repeat #fff;
+}
 /* The hero image */
 #home {
 	width: 100%;
@@ -14,8 +33,7 @@ body, html {
 	background-attachment: fixed;
 }
 .social {
-	padding-top: 30px;
-/*	position: fixed;*/
+	padding-top: 30px;/*	position: fixed;*/
 }
 .fa-twitter:hover {
 	color: #55ccee;
@@ -88,7 +106,7 @@ body, html {
 	/* The image used */
 	background-image: url('../img/../img/computer-writing-work-screen-apple-keyboard-1223786-pxhere.com.jpg');
 	/* Set a specific height */
-	height: 500px;
+	height: 700px;
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
 	background-position: center;
